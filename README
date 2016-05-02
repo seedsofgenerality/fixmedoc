@@ -1,0 +1,13 @@
+I have developed a system for capturing my thought process as I develop and test software.  The idea is to write comments directly into the code you are working on, which are committed to the feature branch, where they evolve during coding.  Once the code is dev complete, and before the feature branch is merged into a release branch for QA, the comments are all removed.
+
+I tag my comments to make so that the simple find+grep scripts included here can produce useful reports.
+
+Some of the tags are:
+FIXME_INFO_FN: marks the beginning and end of a function
+FIXME_INFO_CLASS: marks the beginning and end of a class
+FIXME_INFO_REQ: describes a requirement that has not been implemented yet
+FIXME_INFO_REQ_DONE: describes a requirement that has been implemented
+FIXME_INFO_ISSUE_X_Y: records a thought process that begins by asking a question about how the code works, then visits different locations in the code, making observations along the way, and ends with an answer.  This is really the heart of the system, whereby detailed insight is captured about the operating theory of the code while the programmer is working on it, so that those details are not lost in the memory hole.
+
+Christopher Marshall
+christopherlmarshall@gmail.com
