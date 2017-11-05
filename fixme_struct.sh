@@ -1,6 +1,6 @@
 #!/bin/bash
-# FIXME_INFO_FILE: one of the scripts I use to view FIXME commentary
-
+# Copyright (c) 2017 Christopher Lewis Marshall
+ 
 if [ -z "$1" ]; then
    egrep "FIXME_INFO_CLASS:|FIXME_INFO_FN:|FIXME_INFO_TYPE:|FIXME_INFO_CONTROL:|FIXME_INFO_DB:|FIXME_INFO_FILE:" # FIXME_INFO_IGNORE
 else

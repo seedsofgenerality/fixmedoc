@@ -1,6 +1,6 @@
 #!/usr/bin/python
+# Copyright (c) 2017 Christopher Lewis Marshall
 
-# FIXME_INFO_FILE: one of the scripts I use to view FIXME commentary
 import sys
  
 if len(sys.argv)<2:
