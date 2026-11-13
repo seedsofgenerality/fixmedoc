@@ -1,3 +1,5 @@
+Welcome to the concept of fixme documentation.
+
 I have developed a system for capturing my thought process as I develop and test software.  The idea is to write comments directly into the code you are working on, which are committed to the feature branch, where they evolve during coding.  Once the code is dev complete, and before the feature branch is merged into a release branch for QA, the comments are all removed.
 
 I tag my comments to make so that the simple find+grep scripts included here can produce useful reports.

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Copyright (c) 2017 Christopher Lewis Marshall
 
 import sys
@@ -28,10 +28,10 @@ while line:
       except IndexError:
          pass
       except ValueError as e:
-          print "couldn't parse line: ",i,line,e
+          print("couldn't parse line: ",i,line,e)
           raise
       
    line= sys.stdin.readline()
 
-ll.sort(lambda x,y : cmp(x[0],y[0]))
-print ''.join([line for i,line in ll])
+ll.sort(key=lambda x : x[0])
+print(''.join([line for i,line in ll]))
